@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta charset="UTF-8">
+        <meta name="viewa ort" content="width=device-width, initial-scale=1.0">
+        <title>Dashboard</title>
+        <link rel="icon" href="icons/Picture1.png">
+        <link rel="stylesheet" href="style/all_packs.css">
+        <link rel="stylesheet" href="style/side_nav_style.css">
+        
+        <link rel="stylesheet" href="style/">
+        <!-- <link rel="stylesheet" href="styles/all_stream.css"> -->
+    </head>
+
+    <body>
+        <div class="side-panel" id="top">
+            <div class="side-panel-container">
+                <!-- <li><a href="#"></a></li> -->
+                <a href="dashboard.html">
+                    <img src="icons/icon_wifi.png" alt="">
+                    <p class="icon-hint">Dashboard</p>
+                </a>
+                <a href="time_table.html">
+                    <img src="icons/icon_wifi.png" alt="">
+                    <p class="icon-hint">Time Table</p>
+                </a>
+                <a href="topic_to_cover.html">
+                    <img src="icons/icon_wifi.png" alt="">
+                    <p class="icon-hint">Topics</p>
+                </a>
+                <a href="#" id="active">
+                    <img src="icons/icon_wifi.png" alt="">
+                    <p class="icon-hint">Syllabus</p>
+                </a>
+                <!-- <li><a href="#"></ahref="#"><><a img src="icons/icon_wifi.png" alt="">Chat Room</a></li> -->
+                <a href="#">
+                    <img src="icons/icon_wifi.png" alt="">
+                    <p class="icon-hint">Quiz</p>
+                </a>
+                <a href="#">
+                    <img src="icons/icon_wifi.png" alt="">
+                    <p class="icon-hint">Video on demand</p>
+                </a>
+                <a href="#">
+                    <img src="icons/icon_wifi.png" alt="">
+                    <p class="icon-hint">Result Checker</p>
+                </a>
+                <a href="#">
+                    <img src="icons/icon_wifi.png" alt="">
+                    <p class="icon-hint">Past Paper</p>
+                </a>
+                <a href="#">
+                    <img src="icons/icon_group.png" alt="">
+                    <p class="icon-hint">Profile</p>
+                </a>
+                <a href="#">
+                    <img src="icons/icon_wifi.png" alt="">
+                    <p class="icon-hint">Peers</p>
+                </a>
+            </div>
+        </div>
+        <main>
+            <header>
+                <div class="header-heading">
+                    <h4 id="user-name">Mohamed Super Dumbuya</h4>
+                    <p id="user-level">SSS-1 Science</p>
+                </div>
+                <!-- <button onclick="toggleSideBar()">Oa en</button> -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home Page</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="#" id="active">All streams</a></li>
+                        <li><a href="user_stream.html">My streams</a></li>
+                        <!-- <li><a href="#"><img src="icons/icon_wifi.png" alt=""></a></li> -->
+                    </ul>
+                </nav>
+                <button onclick="userProfile()">
+                    <img src="images/me.jpg" alt="" width="50" height="50" style="border-radius: 50%;">
+                </button>
+                <div id="profile-panel">
+
+                </div>
+            </header>
+            <!-- <p id="pgTitle">Syllabus</p> -->
+            <section class="stream-body">
+                <div class="stream-container">
+                    <div class="search-bar">
+                        <input type="search" name="searchstream" id="searchstream" placeholder="Search stream">
+                        <button type="submit">Search</button>
+                    </div>
+                    <a href="" class="stream-box">
+                        <p class="stream">Business</p>
+                        <p class="option">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sapiente quasi minima ipsum totam expedita corporis sunt, esse vel nobis cumque non consequuntur, rem consequatur provident facilis, fugit ab? Eligendi.</p>
+                    </a>
+                    <a href="" class="stream-box">
+                        <p class="stream">Science</p>
+                        <p class="option">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sapiente quasi minima ipsum totam expedita corporis sunt, esse vel nobis cumque non consequuntur, rem consequatur provident facilis, fugit ab? Eligendi.</p>
+                    </a>
+                    <a href="" class="stream-box">
+                        <p class="stream">Art</p>
+                        <p class="option">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sapiente quasi minima ipsum totam expedita corporis sunt, esse vel nobis cumque non consequuntur, rem consequatur provident facilis, fugit ab? Eligendi.</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

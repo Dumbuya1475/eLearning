@@ -1,0 +1,122 @@
+.logo {
+    background-color: transparent;
+    background-color: red;
+    border-radius: 50%;
+    color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    justify-content: right;
+    bottom: 0;
+}
+
+.logo a {
+    border-radius: 50%;
+    padding: 8px;
+    cursor: context-menu;
+    font-size: 1.5rem;
+    height: 30px;
+    width: 30px;
+    background-color: #222;
+    color: darkorange;
+    transition: 0.5s ease;
+}
+
+.logo a:hover {
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.5rem;
+    height: 30px;
+    width: 30px;
+    /* background-color: #222; */
+    color: #fff;
+}
+
+.side-panel {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0px;
+    bottom: 0;
+    width: fit-content;
+    /* gap: 80px; */
+    /* overflow: hidden; */
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    border-right: 2px solid #33333310;
+    background-color: #33333310;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    background-color: #33333310;
+    background-color: #fff;
+}
+
+.side-panel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+}
+
+.side-panel a {
+    font-size: large;
+    font-weight: 500;
+    padding: 5px 10px;
+    color: #333;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    flex-direction: column;
+    position: relative;
+    transition: 0.2s ease-out;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid transparent;
+}
+
+.side-panel #active {
+    color: darkorange;
+    background-color: #33333310;
+}
+
+.side-panel a:hover {
+    background-color: #33333310;
+    border: 2px solid #33333310;
+    color: darkorange;
+}
+
+/* .side-panel .icon-hint {
+    position: absolute;
+    left: 47px;
+    top: 0px;
+    width: max-content;
+    background-color: #555;
+    padding: 3px 5px;
+    color: #fff;
+    font-size: small;
+} */
+/* .side-panel a:hover .icon-hint {
+    background-color: #33333310;
+    opacity: 1;
+} */
+
+#pgTitle {
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: dashed;
+    border-left: 2px solid darkorange;
+    /* border-bottom: 2px solid darkorange; */
+    width: fit-content;
+    padding-left: 5px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: rgba(255, 140, 0, 0.404);
+    margin-left: 30px;
+}

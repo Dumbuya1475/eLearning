@@ -1,0 +1,23 @@
+form {
+    backdrop-filter: blur(2px);
+    /* background-color: rgba(22, 22, 46, 0.658); */
+    /* background: linear-gradient(to left, rgba(22, 22, 46, 0.658), rgba(22, 22, 46, 0.658), rgba(0, 0, 0, 0.829)); */
+    /* background-color: white; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.form-body {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    min-width: 500px;
+    padding: 20px;
+    /* border: 2px solid #eee; */
+    /* box-shadow: 2px 0px 10px 1px black; */
+}

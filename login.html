@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- 16426 -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="icon" href="icons/icon_group.png">
+        <link rel="stylesheet" href="style/register.css">
+        <link rel="stylesheet" href="style/login.css">
+
+    <body>
+        <form action="main.html" id="loginForm" onsubmit="return validateForm()" target="_blank">
+            <!-- <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" required><br>
+  
+  <label for="confirmPassword">Confirm Password:</label><br>
+  <input type="password" id="confirmPassword" name="confirmPassword" required> -->
+
+            <!-- <input type="submit" value="Submit"> -->
+
+            <div class="form-body">
+                <div class="form-heading">
+                    <h1>Welcome Back!!!</h1>
+                    <h3>Log In</h3>
+                    <p style="color: #eee;">Don't have an account <a href="register.html" style="color: blue;"> Create
+                            one</a></p>
+                </div>
+                <div class="input-container">
+
+                    <div class="input-field">
+                        <label for="userEmail">Email</label>
+                        <input type="email" name="email" id="userEmail" required>
+                    </div>
+                    <div class="input-field">
+                        <label for="userPassword">Password</label>
+                        <input type="password" name="password" id="userPassword" required>
+                    </div>
+                </div>
+                <span id="confirmPasswordError" class="error-message"></span><br>
+                <button type="submit" onclick="formLogin()">Login</button>
+            </div>
+        </form>
+        <script src="javascript/form.js"></script>
+    </body>
+
+</html>

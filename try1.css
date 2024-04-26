@@ -1,0 +1,14 @@
+
+.sidebar-item {
+    display: flex;
+    align-items: center; /* Vertically align content */
+    margin-bottom: 10px; /* Optional spacing */
+}
+.sidebar-item {
+    display: flex;
+    align-items: center; /* Vertically align content */
+    margin-bottom: 10px; /* Optional spacing */
+}
+.sidebar-item:hover .sidebar-name {
+    opacity: 1; /* Show name on hover */
+}
