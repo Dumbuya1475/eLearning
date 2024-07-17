@@ -25,5 +25,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 For any inquiries or feedback, please contact us at:
-- Mohamed Super Dumbuya: [dumbuya366l@gmail.com](mailto:dumbuya366@gmail.com)
+- Mohamed Super Dumbuya: [dumbuya366@gmail.com](mailto:dumbuya366@gmail.com)
 - Ahmed Ibrahim Sankoh: [ahmedisankoh1@gmail.com](mailto:ahmedisankoh1@gmail.com)
